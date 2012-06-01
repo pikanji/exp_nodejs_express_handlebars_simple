@@ -1,0 +1,9 @@
+# osx noise
+.DS_Store
+
+# for typical editors
+*.swp
+*~
+
+# node external modules
+node_modules
