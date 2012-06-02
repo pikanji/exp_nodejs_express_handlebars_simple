@@ -33,10 +33,21 @@ app.get('/', function(req, res){
     var data = {
         name: "Ford Prefect",
         home: "a small planet somewhere in the vicinity of Betelgeuse"
-    }
+    };
 
     res.render('index.html', data);
 });
+
+app.get('/test', function(req, res){
+
+    var data = {
+        name: "Test Page!",
+        home: "a small planet somewhere in the vicinity of Betelgeuse"
+    };
+
+    res.render('index.html', data);
+});
+
 
 //app.listen(3000);
 app.listen(3000, function(){
